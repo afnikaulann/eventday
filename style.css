@@ -1,0 +1,467 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 .red {
+    color: red;
+}
+
+h1 .green {
+    color: green;
+}
+
+h1 .orange {
+    color: orange;
+}
+
+.content {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content .green {
+    color: green;
+}
+
+.content .red {
+    color: red;
+}
+
+.content .highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card Section */
+.card {
+    border: 1px solid #a1c4a1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.card p strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.card p .icon {
+    margin-right: 8px;
+}
+
+/* Button Section */
+.cta-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-green {
+    display: inline-block;
+    background-color: #2dc653;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-green:hover {
+    background-color: #28b44e;
+}
+/* Atur margin default */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container untuk gambar utama */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Kotak informasi utama */
+.info-box {
+    border: 1px solid #c3e6cb;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h2 {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.info-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-box li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.info-box .highlight {
+    font-weight: bold;
+}
+
+.info-box .highlight.green {
+    color: #28a745;
+}
+
+.info-box .highlight.red {
+    color: #dc3545;
+}
+
+.info-box .highlight.blue {
+    color: #17a2b8;
+}
+
+/* Ikon WhatsApp */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-icon img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-icon img:hover {
+    transform: scale(1.1);
+}
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Tombol WhatsApp */
+.whatsapp-button {
+    margin: 20px 0;
+}
+
+.whatsapp-button a {
+    text-decoration: none;
+}
+
+.button-content {
+    display: flex;
+    align-items: center;
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.button-content img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.button-content:hover {
+    background-color: #1ebe57;
+}
+
+/* Kontainer Gambar */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Deskripsi */
+.info-section {
+    background-color: #f9f9f9;
+    border: 1px solid #27ae60;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+/* Tombol CTA */
+.cta-button {
+    margin: 20px auto;
+}
+
+.btn-green {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.btn-green img.whatsapp-icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.btn-green:hover {
+    background-color: #219150;
+}
+
+/* Testimoni Section */
+.testimoni {
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+.testimoni-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.testimoni-item:last-child {
+    border-bottom: none;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    color: #f39c12;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.testimoni-item p {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+/* Animasi Shake */
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* Gaya Ikon WhatsApp */
+.whatsapp-icon {
+    width: 50px; /* Ukuran ikon */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Tambahkan animasi shake */
+.shake-icon {
+    animation: shake 1.5s infinite; /* Berjalan terus */
+}
+.cta-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-telegram {
+    text-decoration: none;
+}
+
+.btn-style {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* Warna khas Telegram */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-style:hover {
+    background-color: #005f99; /* Warna saat hover */
+}
+
+.telegram-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.telegram-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 70px; /* Sesuaikan ukuran */
+    height: 70px;
+    z-index: 1000;
+    animation: bounce 2s infinite; /* Animasi loncat */
+}
+
+.telegram-floating img {
+    width: 100%; /* Pastikan ikon mengisi kontainer */
+    height: 100%;
+    object-fit: contain; /* Mencegah gambar terpotong */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    background: none; /* Menghapus latar belakang */
+    transition: transform 0.3s ease;
+}
+
+.telegram-floating img:hover {
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+/* Animasi loncat */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
